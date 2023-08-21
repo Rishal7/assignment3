@@ -77,6 +77,10 @@ body {
   gap: 10px;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .services {
   position: relative;
   font-weight: 500;
@@ -279,6 +283,21 @@ body {
   justify-content: flex-start;
   gap: 15px;
 }
+.what-we-do-parent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.what-we-do-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
 
 .what-we-do-card-parent {
   display: flex;
@@ -450,7 +469,7 @@ body {
   font-weight: 900;
 }
 
-.design-agency-head {
+.design-agency-head,.testimony-text {
   margin: 0;
 }
 
@@ -1086,7 +1105,6 @@ body {
   height: 400px;
 }
 
-
 .dropdown-level-1,
 .dropdown-level-2 {
   position: relative;
@@ -1128,15 +1146,12 @@ body {
   gap: 15px;
 }
 
-
 .web-development-group:hover {
-  background-color: #FFDCCA;
-
+  background-color: #ffdcca;
 }
 
 .web-development-parent:hover {
-  background-color: #FFDCCA;
-
+  background-color: #ffdcca;
 }
 
 .web-development {
@@ -1146,4 +1161,399 @@ body {
 .green-icon {
   width: 9.570716857910156px;
   height: 16.626873016357422px;
+}
+
+@media (max-width: 420px) {
+  .body{
+    width: inherit;
+  }
+  .main-frame {
+    width: 100%;
+    height: 5236px;
+  }
+  .main-menu-content {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .nav-group {
+    position: absolute;
+    top: 190px;
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .menu-icon {
+    display: block;
+    padding: 5px;
+  }
+
+  .header-text-parent {
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .increase-your-customers {
+    width: 50%;
+    line-height: normal;
+    font-weight: 500;
+    font-size: large;
+  }
+  .we-help-businesses {
+    width: 50%;
+    font-weight: 400;
+    font-size: medium;
+  }
+  .header-cta1 {
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .services {
+    font-size: small;
+    font-weight: 400;
+  }
+  .our-partners {
+    top: 450px;
+  }
+  .img1 {
+    width: 66px;
+    height: 22px;
+    top: 20px;
+    left: 20px;
+  }
+
+  .img2 {
+    top: 20px;
+    left: 125px;
+    width: 105px;
+    height: 22px;
+  }
+
+  .img3 {
+    top: 20px;
+    left: 265px;
+    width: 80px;
+    height: 22px;
+  }
+  .img4 {
+    top: 80px;
+    left: 70px;
+    width: 117px;
+    height: 22px;
+  }
+  .img5 {
+    top: 80px;
+    left: 210px;
+    width: 85px;
+    height: 22px;
+  }
+  .landing-page {
+    height: 100vh;
+  }
+  .header-section {
+    height: 600px;
+  }
+  .what-we-do {
+    top: 570px;
+    height: 950px;
+  }
+  .frame-parent4 {
+    left: 10px;
+    height: 100vh;
+  }
+  .text1 {
+    font-size: larger;
+  }
+  .text2 {
+    font-size: large;
+    width: 80%;
+  }
+  .what-we-do-card-parent {
+    display: flex;
+    flex-direction: column;
+  }
+  .what-we-do-card {
+    gap: 20px;
+    padding: 20px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .what-we-do-parent2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .what-we-do-text {
+    position: relative;
+    top: 0px;
+    width: 245px;
+  }
+  .card-heading {
+    font-size: 19px;
+  }
+  .card-text {
+    width: 245px;
+  }
+  .learn-btn {
+    width: 120px;
+    height: 41px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .arrow-left {
+    width: 13.5px;
+    height: 12px;
+  }
+  .completed-projects-parent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 412px;
+    gap: 10px;
+    /* left: -80px; */
+  }
+  .completed-projects2 {
+    padding: 15px;
+    border: none;
+    gap: 0;
+    justify-content: space-evenly;
+  }
+  .project-plan1 {
+    height: 50px;
+    width: 50px;
+  }
+  .counter-group {
+    width: 80px;
+    height: 45px;
+  }
+  .counter1 {
+    width: 71px;
+    height: 45px;
+  }
+  .div7 {
+    font-weight: 600;
+    font-size: 30px;
+    /* line-height: 40px; */
+  }
+  .div8 {
+    font-weight: 600;
+    font-size: 30px;
+    /* line-height: 40px; */
+  }
+  .wrapper1 {
+    width: 54px;
+    height: 45px;
+  }
+  .frame-parent7 {
+    padding: 15px;
+    border: none;
+    gap: 0;
+  }
+
+  .portfolio-parent {
+    width: 100%;
+    height: 2000px;
+  }
+  .our-portfolio1 {
+    font-size: 24px;
+    left: 10px;
+  }
+  .we-provide-the {
+    font-size: 18px;
+    left: 10px;
+    width: 80%;
+    font-weight: 500;
+  }
+  .screenshots {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    top: 230px;
+    width: 100%;
+  }
+  .screenshot-1-parent,
+  .screenshot-2-parent,
+  .screenshot-3-parent,
+  .screenshot-4-parent {
+    position: relative;
+    left: 10px;
+    top: 0;
+    gap: 10px;
+  }
+  .screenshot-1,
+  .screenshot-3,
+  .screenshot-2,
+  .screenshot-4 {
+    top: 0;
+    width: 95%;
+    height: 261px;
+    object-fit: contain;
+  }
+  .digital-marketing {
+    font-size: 20px;
+    width: 100%;
+    font-weight: 500;
+  }
+  .this-is-a {
+    width: 90%;
+  }
+
+  .testimonial-section {
+    top: 4000px;
+    height: 440px;
+  }
+  .frame-parent3{
+    top:30px;
+    left: 10px;
+  }
+  .vector-parent{
+    display: none;
+  }
+  .testimonial-heading {
+    font-size: 24px;
+  }
+  .testimony-text{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .testimonial-section-inner{
+    top: 170px;
+    left: 10px;
+  }
+  .instance-parent{
+    gap: 20px;
+    width: 147%;
+  }
+  .thank-you-for-your-service-i-group{
+    left: 12px;
+    width: 16%;
+    padding: 20px 15px;
+    height: 240px;
+  }
+  .thank-you-for1{
+    width: 100%
+  }
+  .avatar-text{
+    font-weight: 500;
+  }
+
+  .subscribe-section{
+    top: 4450px;
+    width: 100%;
+    height: 320px;
+  }
+
+  .frame-parent1{
+    top:30px;
+    left: 0;
+    width: 100%;
+  }
+  .frame-parent2{
+    position: relative;
+    width: 100%;
+  }
+  .subscribe-parent{
+    position: relative;
+    padding: 5px;
+    width: 100%;
+  }
+  .subscribe{
+    font-size: 24px;
+  }
+  .subscribe-text{
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .please-drop-your{
+    font-weight: 400;
+  }
+  .frame-wrapper{
+    width: 90%;
+  }
+  .enter-email-parent{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .enter-your-email{
+    width: 60%;
+  }
+  .services{
+    width: 130%;
+  }
+  .header-cta{
+    position: relative;
+    left: 0;
+  }
+
+  .footer{
+    top:4800px;
+    width: 100%;
+  }
+  .web-logo-parent{
+    top: 0;
+    left: 0;
+    width: 30%;
+    font-size: 26px;
+  }
+  .some-footer-text{
+    top: 20px;
+    width: 70%;
+    font-size: 14px;
+  }
+  .footer-inner{
+    top:120px;
+    left: 110px;
+  }
+  .footer-parent{
+    top: 120px;
+    position: absolute;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: space-around;
+    gap: 10px;
+
+  }
+  .quick-links,.address,.address-container,.services-parent{
+    /* top: 0; */
+    width: 40%;
+    left: 0;
+    position: relative;
+  }
+  .services-parent, .address-container{
+    gap: 8px;
+    top: 90px;
+    font-size: 16px;
+  }
+  .address-container{
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .copyright{
+    width: 70%;
+    left: 30px;
+    font-size: 18px;
+  }
 }
