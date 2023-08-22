@@ -469,7 +469,8 @@ body {
   font-weight: 900;
 }
 
-.design-agency-head,.testimony-text {
+.design-agency-head,
+.testimony-text {
   margin: 0;
 }
 
@@ -1163,8 +1164,283 @@ body {
   height: 16.626873016357422px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .body {
+    box-sizing: border-box;
+  }
+  .landing-page {
+    height: 100vh;
+    width: 100%;
+  }
+  .main-frame {
+    width: 100%;
+    height: 7050px;
+  }
+  .main-menu-content {
+    width: 100%;
+    padding: 5px;
+  }
+  .menu-icon {
+    display: block;
+    padding: 15px;
+  }
+  .menu-icon-img {
+    height: 30px;
+    width: 30px;
+  }
+  .nav-group {
+    display: none;
+  }
+  .logo {
+    padding-left: 20px;
+    font-size: 24px;
+  }
+  .header-lady-1-parent{
+    display: none;
+  }
+  .header-text-parent{
+    left: 0;
+    padding-left: 50px;
+  }
+  .header-section{
+    width: 100%;
+  }
+  .we-help-businesses{
+    font-size: 22px;
+    width: 60%;
+  }
+  .our-partners{
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    padding: 0 20px;
+    gap: 35px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .img1, .img2,.img3,.img4,.img5{
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .what-we-do{
+    width: 100%;
+    height: 980px;
+  }
+  .frame-parent4{
+    width: 100%;
+    left: 0;
+    padding:0 50px;
+
+  }
+  .text1{
+    font-size: 24px;
+  }
+  .what-we-do-card-parent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .what-we-do-parent2{
+    display: flex;
+    flex-direction: row;
+    gap:30px
+  }
+  .what-we-do-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .completed-projects-parent{
+    top:1850px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+
+  .portfolio-parent{
+    top: 2250px;
+    width: 100%;
+    padding: 0 50px;
+    position: absolute;
+    height: 3400px;
+  }
+  .our-portfolio1, .we-provide-the{
+    left: 0;
+    position: relative;
+  }
+  .our-portfolio1{
+    font-size: 24px;
+  }
+  .screenshots{
+    position: absolute;
+    top:280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .screenshot-1-parent,
+  .screenshot-2-parent,
+  .screenshot-3-parent,
+  .screenshot-4-parent {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    gap: 30px;
+    
+  }
+  .screenshot-1,
+  .screenshot-3,
+  .screenshot-2,
+  .screenshot-4 {
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: 90%;
+  }
+  .digital-marketing-parent{
+    position: relative;
+    width: 100%;
+  }
+  .digital-marketing{
+    width: 100%;
+    font-size: 26px;
+  }
+  .this-is-a {
+    width: 90%;
+    font-size: 22px;
+  }
+
+
+  .testimonial-section{
+    top:5650px;
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 60px;
+  }
+  .frame-parent3{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .testimonials-parent{
+    width: 100%;
+  }
+  .testimonial-heading{
+    font-size: 24px;
+  }
+  .vector-parent{
+    display: none;
+  }
+  .testimonial-section-inner{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .instance-parent{
+    position: relative;
+    width:210%;
+    padding: 0 20px;
+  }
+  .thank-you-for-your-service-i-group{
+    position: relative;
+    gap: 25px;
+  }
+  .thank-you-for1{
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .avatar-text{
+    font-size: 22px;
+  }
+  .ceo{
+    font-size: 20px;
+  }
+
+
+  .subscribe-section{
+    top:6230px;
+    width: 100%;
+    padding: 50px;
+    position: absolute;
+    height: fit-content;
+  }
+  .frame-parent1{
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+  }
+
+
+  .footer{
+    top:6610px;
+    width: 100%;
+    position: absolute;
+    padding:30px 50px;
+  }
+  .web-logo-parent{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0;
+  }
+  .some-footer-text{
+    margin-top: 10px;
+    position: relative;
+    top:0px;
+    left: 0px;
+  }
+  .quick-links{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    top: 8%;
+    left: 65%;
+  }
+  .services-parent{
+    top: 19%;
+    left: 65%;
+    gap: 15px;
+  }
+  .footer-inner{
+    width: 100%;
+    margin-top: 20px;
+    left: auto;
+    top: auto;
+  }
+  .address{
+    font-size: 22px;
+    font-weight: 500;
+    left: auto;
+    top: 62%;
+  }
+  .address-container{
+    left: auto;
+    top: 73%;
+  }
+  .copyright{
+    top: 85.5%;
+    left: 58%;
+  }
+
+}
+
 @media (max-width: 420px) {
-  .body{
+  .body {
     width: inherit;
   }
   .main-frame {
@@ -1188,6 +1464,10 @@ body {
   .menu-icon {
     display: block;
     padding: 5px;
+  }
+  .menu-icon-img {
+    height: 30px;
+    width: 30px;
   }
 
   .header-text-parent {
@@ -1329,7 +1609,6 @@ body {
     flex-wrap: wrap;
     width: 412px;
     gap: 10px;
-    /* left: -80px; */
   }
   .completed-projects2 {
     padding: 15px;
@@ -1422,110 +1701,110 @@ body {
     top: 4000px;
     height: 440px;
   }
-  .frame-parent3{
-    top:30px;
+  .frame-parent3 {
+    top: 30px;
     left: 10px;
   }
-  .vector-parent{
+  .vector-parent {
     display: none;
   }
   .testimonial-heading {
     font-size: 24px;
   }
-  .testimony-text{
+  .testimony-text {
     font-size: 18px;
     font-weight: 500;
   }
-  .testimonial-section-inner{
+  .testimonial-section-inner {
     top: 170px;
     left: 10px;
   }
-  .instance-parent{
+  .instance-parent {
     gap: 20px;
     width: 147%;
   }
-  .thank-you-for-your-service-i-group{
+  .thank-you-for-your-service-i-group {
     left: 12px;
     width: 16%;
     padding: 20px 15px;
     height: 240px;
   }
-  .thank-you-for1{
-    width: 100%
+  .thank-you-for1 {
+    width: 100%;
   }
-  .avatar-text{
+  .avatar-text {
     font-weight: 500;
   }
 
-  .subscribe-section{
+  .subscribe-section {
     top: 4450px;
     width: 100%;
     height: 320px;
   }
 
-  .frame-parent1{
-    top:30px;
+  .frame-parent1 {
+    top: 30px;
     left: 0;
     width: 100%;
   }
-  .frame-parent2{
+  .frame-parent2 {
     position: relative;
     width: 100%;
   }
-  .subscribe-parent{
+  .subscribe-parent {
     position: relative;
     padding: 5px;
     width: 100%;
   }
-  .subscribe{
+  .subscribe {
     font-size: 24px;
   }
-  .subscribe-text{
+  .subscribe-text {
     width: 100%;
     font-weight: 500;
     font-size: 20px;
   }
-  .please-drop-your{
+  .please-drop-your {
     font-weight: 400;
   }
-  .frame-wrapper{
+  .frame-wrapper {
     width: 90%;
   }
-  .enter-email-parent{
+  .enter-email-parent {
     width: 100%;
     justify-content: space-between;
   }
-  .enter-your-email{
+  .enter-your-email {
     width: 60%;
   }
-  .services{
+  .services {
     width: 130%;
   }
-  .header-cta{
+  .header-cta {
     position: relative;
     left: 0;
   }
 
-  .footer{
-    top:4800px;
+  .footer {
+    top: 4800px;
     width: 100%;
   }
-  .web-logo-parent{
+  .web-logo-parent {
     top: 0;
     left: 0;
     width: 30%;
     font-size: 26px;
   }
-  .some-footer-text{
+  .some-footer-text {
     top: 20px;
     width: 70%;
     font-size: 14px;
   }
-  .footer-inner{
-    top:120px;
+  .footer-inner {
+    top: 120px;
     left: 110px;
   }
-  .footer-parent{
+  .footer-parent {
     top: 120px;
     position: absolute;
     display: flex;
@@ -1534,26 +1813,36 @@ body {
     padding: 0 20px;
     justify-content: space-around;
     gap: 10px;
-
   }
-  .quick-links,.address,.address-container,.services-parent{
+  .quick-links,
+  .address,
+  .address-container,
+  .services-parent {
     /* top: 0; */
     width: 40%;
     left: 0;
     position: relative;
   }
-  .services-parent, .address-container{
+  .services-parent,
+  .address-container {
     gap: 8px;
     top: 90px;
     font-size: 16px;
   }
-  .address-container{
+  .address-container {
     font-weight: 400;
     font-size: 16px;
   }
-  .copyright{
+  .copyright {
     width: 70%;
     left: 30px;
     font-size: 18px;
+  }
+
+  @media (min-width: 767px) and (max-width: 1024px) {
+    .landing-page {
+      width: 100%;
+      height: 100vh !important;
+    }
   }
 }
